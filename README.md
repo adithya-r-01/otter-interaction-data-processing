@@ -1,6 +1,6 @@
 # Animal Computer Interaction: Sea Otter Project
 ---
-1. ## Introduction
-2. ## Methodology
-3. ## Results
-4. ## Reflection
+
+Using an MPU-6050 interfaced with an ESP-32 we are able to create a simple accelerometer, gyroscope data collection mechanism (connection.ino). Then the data was analyzed through a Jupyter notebook.
+
+
