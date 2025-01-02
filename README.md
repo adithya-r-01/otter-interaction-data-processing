@@ -2,9 +2,9 @@
     <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading_image.svg"></a><br>Animal Computer Interaction: Sea Otters
 </h1>
 
-- [Overview]()
-- [`Arduino` Interface]()
-- [Report]()
+- [Overview](https://github.com/adithya-r-01/otter-interaction-data-processing?tab=readme-ov-file#overview)
+- [`Arduino` Interface](https://github.com/adithya-r-01/otter-interaction-data-processing?tab=readme-ov-file#arduino-interface)
+- [Report](https://github.com/adithya-r-01/otter-interaction-data-processing?tab=readme-ov-file#report)
 
 ## Overview
 
@@ -20,5 +20,5 @@ The `MPU-6050` and `ESP-32` where interfaced into the arduino at known locations
 
 ## Report
 
-This data collection and analysis process was part of a larger project in conjunction with the _Animal Computer Interaction_ lab at the _Georgia Institute of Technology_. The full report can be found [here](https://drive.google.com/file/d/1vhUtgIPKyBQ3KttIlGnzjX_AYDwL7k8i/view?usp=sharing)
+This data collection and analysis process was part of a larger project in conjunction with the _Animal Computer Interaction_ lab at the _Georgia Institute of Technology_. The full report can be found [here](https://drive.google.com/file/d/1vhUtgIPKyBQ3KttIlGnzjX_AYDwL7k8i/view?usp=sharing).
 
