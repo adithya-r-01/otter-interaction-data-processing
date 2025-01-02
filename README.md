@@ -2,11 +2,15 @@
     <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading_image.svg"></a><br>Animal Computer Interaction: Sea Otters
 </h1>
 
-#### Overview
+- [Overview]()
+- [`Arduino` Interface]()
+- [Report]()
 
-This project interfaces with an `MPU-6050` and an `ESP-32` which allowed us to gather simple accelerometer and gyroscope data. The collection process and the interface with the `Arduino` is described in [`connection.ino`](connection.ino). Data post-processing is done in the [`Data-Analysis.ipynb`](Data-Analysis.ipynb) notebook.
+## Overview
 
-#### `Arduino` Interface
+This project interfaces with an `MPU-6050` and an `ESP-32` which allowed us to gather simple accelerometer and gyroscope data. The collection process and the interface with the `Arduino` is described in [`connection.ino`](src/connection.ino). Data post-processing is done in the [`analysis.ipynb`](analysis.ipynb) notebook. The data from the `Arduino` readings is sampled in the [`data.csv`](src/data.csv) file.
+
+## `Arduino` Interface
 
 The `MPU-6050` and `ESP-32` where interfaced into the arduino at known locations so the reference to them in the `connection.ino` is hardcoded. From there, three seperate processes are defined:
 
@@ -14,8 +18,7 @@ The `MPU-6050` and `ESP-32` where interfaced into the arduino at known locations
 - `Loop()`: The loop function was responsible for sending data over Wi-Fi, the data transmitted was in a raw string format and was later processed into a `csv` file.
 - `Read_MPU()`: The read function was responsible for actually getting the data from the `MPU-6050` and sending it to the `Loop` function to transmit.
 
-#### Data Post-Processing
+## Report
 
-The Jupyter notebook was responsible for taking in the `csv` formatted data and computing derivative order calculations based off the acceleration data (i.e. _torque_ and _jerk_).
-
+This data collection and analysis process was part of a larger project in conjunction with the _Animal Computer Interaction_ lab at the _Georgia Institute of Technology_. The full report can be found [here](https://drive.google.com/file/d/1vhUtgIPKyBQ3KttIlGnzjX_AYDwL7k8i/view?usp=sharing)
 
