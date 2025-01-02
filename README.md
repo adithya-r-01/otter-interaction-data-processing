@@ -2,6 +2,8 @@
     <a href="https://prometheus.io" target="_blank"><img alt="Prometheus" src="./.assets/heading_image.svg"></a><br>Animal Computer Interaction: Sea Otters
 </h1>
 
+> A project designed to framework the process of collecting interaction data from an `MPU-6050` and pipeline the accelerometer and gyroscope readings.
+
 - [Overview](https://github.com/adithya-r-01/otter-interaction-data-processing?tab=readme-ov-file#overview)
 - [`Arduino` Interface](https://github.com/adithya-r-01/otter-interaction-data-processing?tab=readme-ov-file#arduino-interface)
 - [Report](https://github.com/adithya-r-01/otter-interaction-data-processing?tab=readme-ov-file#report)
